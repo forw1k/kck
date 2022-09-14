@@ -155,6 +155,9 @@ $white: #ffffff;
 .my-content__main {
   width: 100%;
 }
+.my-content__aside {
+  margin-right: 1.6rem;
+}
 .my-content__wrap {
   width: 100%;
   position: relative;
@@ -178,7 +181,6 @@ $white: #ffffff;
 .my-filter {
   width: 28rem;
   padding: 1.6rem;
-  margin-right: 1.6rem;
   box-shadow: 0px 4px 12px #e7e7e7;
 }
 .my-filter__title {

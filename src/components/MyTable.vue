@@ -215,7 +215,7 @@ $darkgray: #647a8c;
   color: $darkgray;
   font-weight: bold;
   font-size: 1.4rem;
-  flex-basis: 50%;
+  flex-basis: 40%;
   margin-right: 0.5rem;
 }
 .my-tiles__item {
