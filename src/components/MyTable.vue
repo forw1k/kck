@@ -94,7 +94,7 @@
           </div>
           <div class="my-tiles__item">
             <div class="my-tiles__name">{{ headers[2].title }}:</div>
-            <div class="my-tiles__text">{{ row.type }}</div>
+            <div class="my-tiles__text">{{ row.title }}</div>
           </div>
           <div class="my-tiles__item">
             <div class="my-tiles__name">{{ headers[3].title }}:</div>
