@@ -101,6 +101,12 @@ $white: #ffffff;
   border-radius: 2px;
   padding: 1.2rem 0.8rem;
 }
+.my-sort__hidden {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+}
 .my-sort__text {
   font-size: 1.2rem;
 }
