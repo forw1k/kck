@@ -106,6 +106,7 @@ $white: #ffffff;
   width: 100%;
   height: 100%;
   top: 100%;
+  z-index: 2;
 }
 .my-sort__text {
   font-size: 1.2rem;
