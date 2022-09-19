@@ -41,7 +41,13 @@
           </div>
           <my-toggler @toggleForm="toggleView" :isLinear="isLinear" />
         </div>
-        <my-table
+        <my-table v-if="isLinear"
+          :isLinear="isLinear"
+          @remove="removeItem"
+          :rows="sortedAndFilteredSelectedRows"
+          :headers="headers"
+        />
+        <my-tiles v-else
           :isLinear="isLinear"
           @remove="removeItem"
           :rows="sortedAndFilteredSelectedRows"
@@ -55,6 +61,7 @@
 <script>
 import MyHeader from '@/components/MyHeader.vue';
 import MyTable from '@/components/MyTable.vue';
+import MyTiles from '@/components/MyTiles.vue';
 import MySort from '@/components/MySort.vue';
 import MyInput from '@/components/MyInput.vue';
 import MyToggler from '@/components/MyToggler.vue';
@@ -66,6 +73,7 @@ export default {
   components: {
     MyHeader,
     MyTable,
+    MyTiles,
     MySort,
     MyToggler,
     MyInput,

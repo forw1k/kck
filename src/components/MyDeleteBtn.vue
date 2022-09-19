@@ -45,10 +45,6 @@ $darkgray: #647a8c;
 $white: #ffffff;
 
 .my-delete-btn {
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 111;
   background: $white;
   display: flex;
   align-items: center;
